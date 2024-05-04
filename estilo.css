@@ -142,6 +142,25 @@ h2.fill-animation:before {
     margin: 5px;
 }
 
+.service-item-card-description { 
+    text-align: center;          
+    line-height: 1.3em;
+}
+
+.service-item-card-description .project{
+    display: flex;
+    flex-direction: column;
+}
+.service-item-card-description .project a {     
+    color: #a8dfc3;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align:justify;    
+}
+
+.service-item-card-description .project a:hover {
+    text-decoration: underline;
+}
 .service-container .service-item .service-item-card {
     border: 1px solid black;
     height: 300px;
